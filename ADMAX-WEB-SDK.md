@@ -1,4 +1,6 @@
-
+ADMAX Web SDK 적용 가이드
+=========================
+<br>
 
 | 문서 버전 | 작성 일자 | 작성자 | 내용 |
 |:----------:|:----------:|:----------------:|:------------------------------------------------|
@@ -18,9 +20,8 @@
 admaxkorea/admaxkorea is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes. 
 --->
+<br><br>
 
-ADMAX Web SDK 적용 가이드
-=========================
 
 ## 1. 연동 절차
 
@@ -35,7 +36,7 @@ ADMAX Web SDK 적용 가이드
 
 * 테스트가 완료되면 광고를 집행합니다.
 
-<br><br><br><br>
+<br><br><br><br><br>
 
 
 
@@ -106,7 +107,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
  여기에서 가장 중요한 것은 리다이렉트 페이지에서는 ADMAX 클릭 서버를 통해 전달되는 모든 파라메터가 랜딩 페이지까지 전달되도록 해주셔야 합니다.
 
  또, 랜딩 페이지와 전환 완료 페이지는 모두 ✨동일한 도메인✨ 내에 위치하고 있어야만 합니다.
-<br><br><br>
+<br><br><br><br><br>
 
 
 
@@ -167,7 +168,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
 */
 </script>
 ```
-<br><br>
+<br><br><br><br><br>
 
 
 
@@ -229,7 +230,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
  
 </script>
 ```
-<br><br>
+<br><br><br><br><br>
 
 
 
@@ -300,7 +301,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
 </script>
 ```
 
-<br><br>
+<br><br><br><br><br>
 
 
 
@@ -368,4 +369,4 @@ CPC 캠페인의 경우 ADMAX 와 광고주 간 협의에 따라 사용자가 �
 */
 </script>
 ```
-
+<br><br><br><br><br>
