@@ -1,8 +1,4 @@
-- 👋 Hi, I’m @admaxkorea
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+
 
 | 문서 버전 | 작성 일자 | 작성자 | 내용 |
 |:----------:|:----------:|:----------------:|:------------------------------------------------|
@@ -20,7 +16,7 @@
 
 <!---
 admaxkorea/admaxkorea is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+You can click the Preview link to take a look at your changes. 
 --->
 
 ADMAX Web SDK 적용 가이드
