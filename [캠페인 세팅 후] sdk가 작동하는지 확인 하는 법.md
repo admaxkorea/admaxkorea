@@ -33,7 +33,7 @@
 애드맥스 파트너 pick URL을 누르면<br>
 
 bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다<br>
-**vegas_adkey** 파라미터에 대한 고유한 값을 생성합니다.
+vegas_adkey 파라미터에 대한 고유한 값을 생성합니다.
 
 **vegas_adkey=**y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
