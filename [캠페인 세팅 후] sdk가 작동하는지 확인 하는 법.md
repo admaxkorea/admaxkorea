@@ -12,6 +12,14 @@
 
 
 ### 2. 애드맥스의 파트너 URL 클릭 시 vegas_adkey={adkey} 파라미터가 존재해야 함.
+
+예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
+
+![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
+[위 이미지의 최상단 빨간 박스] 최초에 landing 한 페이지에는 vegas_adkey={adkey}가 전달됩니다.
+<br><br>
+
+
 <br>
 애드맥스 캠페인 세팅시 <br>
 광고주가 전달 해준 landing URL => edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey={adkey}** 으로 <br>
@@ -37,8 +45,7 @@ bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버�
 
  
 
-[위 이미지의 최상단 빨간 박스] 
-최초에 landing 한 페이지에는 vegas_adkey={adkey}가 전달됩니다.<br><br>
+
 
 
 <br><br><br><br>
