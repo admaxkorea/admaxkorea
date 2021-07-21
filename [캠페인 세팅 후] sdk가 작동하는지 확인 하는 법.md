@@ -25,12 +25,12 @@
 #### 2.1. landingURL 설정
      애드맥스 캠페인 세팅 시
      광고주가 전달 해준 landing URL => edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey={adkey} 으로
-     애드맥스 운영진은 캠페인   landing URL로 설정 해야 합니다.
+     애드맥스 운영진은 &vegas_adkey={adkey} 파라미터를 포함해서 캠페인 landing URL로 설정 해야 합니다.
 <br><br>
  
  #### 2.2. 파트너 pick URL 클릭
 
-     애드맥스 파트너 pick URL을 누르면<br>
+     애드맥스 파트너 pick URL을 누르면
 
      bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다
      vegas_adkey 파라미터에 대한 고유한 값을 생성합니다.
