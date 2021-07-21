@@ -13,19 +13,22 @@
 
 ### 2. 애드맥스의 파트너 URL 클릭 시 vegas_adkey={adkey} 파라미터가 존재해야 함.
 
-예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
+
 
 ![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
-[위 이미지의 최상단 빨간 박스] vegas_adkey 파라미터와 {adkey}에 값이 있음을 볼 수 있다.
+[위 이미지의 최상단 빨간 박스] vegas_adkey 파라미터와 {adkey}에 값이 있음을 볼 수 있다.<br>
+예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
 <br><br>
 
 
-<br>
-애드맥스 캠페인 세팅시 <br>
+
+#### 2.1. landingURL 설정
+애드맥스 캠페인 세팅 시 <br>
 광고주가 전달 해준 landing URL => edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey={adkey}** 으로 <br>
-애드맥스는 캠페인   landing URL로 설정 해놓습니다.
+애드맥스 운영진은 캠페인   landing URL로 설정 해야 합니다.
 <br><br>
  
+ #### 2.2. 파트너 pick URL 클릭
 
 애드맥스 파트너 pick URL을 누르면<br>
 
@@ -34,20 +37,13 @@ bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버�
 
 **vegas_adkey=**y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
- 
+#### 2.3. vegas_adkey 값 확인 가능
 
 결국 도착한  landing URL에는 **vegas_adkey** 와 **값**이 존재합니다.
 
 예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
 
 ![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
-
-
- 
-
-
-
-
 <br><br><br><br>
  
  
