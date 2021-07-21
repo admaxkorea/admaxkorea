@@ -50,13 +50,13 @@ ADMAX Web SDK 적용 가이드
 
 ADMAX Web SDK 스크립트의 삽입 위치는 아래 2개 페이지에 적용합니다.
 
-#### a. 랜딩 페이지
-#### b. 전환 완료 페이지
+#### <span style="color:red">a. 랜딩 페이지</span>
+#### <span style="color:yellow">b. 전환 완료 페이지</span>
 
 
 
 
-단, a.랜딩 페이지와 b.전환 완료 페이지가 같을 경우 해당 페이지에만 적용하면 되며
+단, <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지가 같을 경우 해당 페이지에만 적용하면 되며
 
 해당 페이지 내에서 랜딩 완료 시점과 전환 완료 시점을 구분하여 하기 샘플과 같이 처리하면 됩니다.
 
@@ -69,51 +69,51 @@ ADMAX Web SDK 스크립트의 삽입 위치는 아래 2개 페이지에 적용�
 
 ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 같은 흐름이 될 것입니다.
 
-즉, 아래의 흐름 상에 a.랜딩 페이지와 b.전환 완료 페이지가 동일한 사이트도 있고, a.랜딩 페이지와 b.전환 완료 페이지가 다른 경우도 있습니다.
+즉, 아래의 흐름 상에 <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지가 동일한 사이트도 있고, <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지가 다른 경우도 있습니다.
 
-또, a.랜딩 페이지 이전에 리다이렉트 페이지를 경유하는 사이트도 있고, a.랜딩 페이지와 b.전환 완료 페이지 사이에 경유 페이지가 있는 사이트도 있습니다.
-
-
+또, <span style="color:red">랜딩 페이지</span> 이전에 리다이렉트 페이지를 경유하는 사이트도 있고, <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지 사이에 경유 페이지가 있는 사이트도 있습니다.
 
 
-#### 1) a.랜딩 페이지와 b.전환 완료 페이지가 동일한 경우
+
+
+#### 1) <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지가 동일한 경우
 ![image](https://user-images.githubusercontent.com/87693595/126298930-b131f699-03f3-4805-b50e-cd42db8ff412.png)
 
 이 경우 다음 절에서 설명되는 각 캠페인의 랜딩 페이지와 전환 완료 페이지의 샘플 코드가 모두 같은 페이지에 삽입이 되어야 합니다.
 
 
 
-#### 2) a.랜딩 페이지와 b.전환 완료 페이지가 다른 경우
+#### 2) <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지가 다른 경우
 ![image](https://user-images.githubusercontent.com/87693595/126298994-54d5dd64-f928-45be-9cdb-befe6df7eb53.png)
 
 
-이 경우 다음 절에서 설명되는 각 캠페인의 랜딩 페이지와 전환 완료 페이지의 샘플 코드가 각각의 랜딩 페이지 및 전환 완료 페이지에 삽입이 되어야 합니다.
+이 경우 다음 절에서 설명되는 각 캠페인의 <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지의 샘플 코드가 각각의 <span style="color:red">랜딩 페이지</span> 및 전환 완료 페이지에 삽입이 되어야 합니다.
 
-또, 랜딩 페이지와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
+또, <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
 
 
 
-#### 3) a.랜딩 페이지 전에 리다이렉트 페이지가 있는 경우
+#### 3) <span style="color:red">랜딩 페이지</span> 전에 리다이렉트 페이지가 있는 경우
 ![image](https://user-images.githubusercontent.com/87693595/126299027-16eb2533-fc19-4b69-a00c-cd3a3c8659b3.png)
 
 
-이 경우 다음 절에서 설명되는 각 캠페인의 랜딩 페이지와 전환 완료 페이지의 샘플 코드가 각각의 랜딩 페이지 및 전환 완료 페이지에 삽입이 되어야 합니다.
+이 경우 다음 절에서 설명되는 각 캠페인의 <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지의 샘플 코드가 각각의 <span style="color:red">랜딩 페이지</span> 및 전환 완료 페이지에 삽입이 되어야 합니다.
 
-여기에서 가장 중요한 것은 리다이렉트 페이지에서는 ADMAX 클릭 서버를 통해 전달되는 모든 파라메터가 랜딩 페이지까지 전달되도록 해주셔야 합니다.
+여기에서 가장 중요한 것은 리다이렉트 페이지에서는 ADMAX 클릭 서버를 통해 전달되는 모든 파라메터가 <span style="color:red">랜딩 페이지</span>까지 전달되도록 해주셔야 합니다.
 
-또, 랜딩 페이지와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
+또, <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
 
 
 
-#### 4) a.랜딩 페이지와 b.전환 완료 페이지 사이에 경유 페이지가 있는 경우
+#### 4) <span style="color:red">랜딩 페이지</span>와 b.전환 완료 페이지 사이에 경유 페이지가 있는 경우
 ![image](https://user-images.githubusercontent.com/87693595/126299070-cf9b9364-4746-4459-a7be-584b795aa618.png)
 
 
-이 경우 다음 절에서 설명되는 각 캠페인의 랜딩 페이지와 전환 완료 페이지의 샘플 코드가 각각의 랜딩 페이지 및 전환 완료 페이지에 삽입이 되어야 합니다.
+이 경우 다음 절에서 설명되는 각 캠페인의 <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지의 샘플 코드가 각각의 <span style="color:red">랜딩 페이지</span> 및 전환 완료 페이지에 삽입이 되어야 합니다.
 
-여기에서 가장 중요한 것은 리다이렉트 페이지에서는 ADMAX 클릭 서버를 통해 전달되는 모든 파라메터가 랜딩 페이지까지 전달되도록 해주셔야 합니다.
+여기에서 가장 중요한 것은 리다이렉트 페이지에서는 ADMAX 클릭 서버를 통해 전달되는 모든 파라메터가 <span style="color:red">랜딩 페이지</span>까지 전달되도록 해주셔야 합니다.
 
-또, 랜딩 페이지와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
+또, <span style="color:red">랜딩 페이지</span>와 전환 완료 페이지는 모두 동일한 도메인 내에 위치하고 있어야만 합니다.
 
 
 
@@ -132,7 +132,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
 
 사용자가 사전예약 랜딩 페이지에 도달하면 ADMAX 의 Web SDK 를 초기화 해야 합니다.
 
-아래는 랜딩 페이지에 넣어 주셔야 하는 예제 코드입니다.
+아래는 <span style="color:red">랜딩 페이지</span>에 넣어 주셔야 하는 예제 코드입니다.
 
 ```javascript
 <script type="text/javascript" src="//s3.ap-northeast-2.amazonaws.com/vegas-kor-o/sdk/web/vegastracker.min.js"></script>
@@ -192,7 +192,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
 
 사용자가 회원가입 랜딩 페이지에 도달하면 ADMAX 의 Web SDK 를 초기화 해야 합니다.
 
-아래는 랜딩 페이지에 넣어 주셔야 하는 예제 코드입니다.
+아래는 <span style="color:red">랜딩 페이지</span>에 넣어 주셔야 하는 예제 코드입니다.
 
 ```javascript
 <script type="text/javascript" src="//s3.ap-northeast-2.amazonaws.com/vegas-kor-o/sdk/web/vegastracker.min.js"></script>
@@ -255,7 +255,7 @@ ADMAX 의 Web SDK 를 삽입하는 광고주 캠페인은 대체로 아래와 �
 
 사용자가 상품구매 랜딩 페이지에 도달하면 ADMAX 의 Web SDK 를 초기화 해야 합니다.
 
-아래는 랜딩 페이지에 넣어 주셔야 하는 예제 코드입니다.
+아래는 <span style="color:red">랜딩 페이지</span>에 넣어 주셔야 하는 예제 코드입니다.
 
 ```javascript
 <script type="text/javascript" src="//s3.ap-northeast-2.amazonaws.com/vegas-kor-o/sdk/web/vegastracker.min.js"></script>
@@ -327,7 +327,7 @@ CPC 캠페인의 경우 ADMAX 와 광고주 간 협의에 따라 사용자가 �
 
 이에 따라 사용자가 CPC 랜딩 페이지에 도달하면 ADMAX 의 Web SDK 를 초기화 하고 또 전환 완료 처리 코드도 함께 넣어주면 정해진 시간이 지났을 때 전환 처리가 됩니다.
 
-아래는 랜딩 페이지에 초기화 코드와 더불어 전환 처리 코드를 넣어 주시는 예제 코드입니다.
+아래는 <span style="color:red">랜딩 페이지</span>에 초기화 코드와 더불어 전환 처리 코드를 넣어 주시는 예제 코드입니다.
 
 
 ```javascript
