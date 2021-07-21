@@ -42,7 +42,7 @@
 
      도착한  landing URL에는 'vegas_adkey=값' 이 존재합니다.
 
-     예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
+     예시: edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
 <br><br><br>
  
