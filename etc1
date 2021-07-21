@@ -1,3 +1,5 @@
+# 테스트 캠페인 세팅 후 vegas_adkey={adkey} 가 보이지 않을 때
+
 A 스크립트에는 1), 2) 조건이 필수적으로 필요합니다.
 1) url에  vegas_adkey={adkey}존재 
 2) 쿠키에 vegas_param 존재
