@@ -16,7 +16,7 @@
 예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
 
 ![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
-[위 이미지의 최상단 빨간 박스] 최초에 landing 한 페이지에는 vegas_adkey={adkey}가 전달됩니다.
+[위 이미지의 최상단 빨간 박스] vegas_adkey 파라미터와 {adkey}에 값이 있음을 볼 수 있다.
 <br><br>
 
 
