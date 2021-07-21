@@ -11,21 +11,21 @@
 
 ### 1-1. 애드맥스의 파트너 URL 클릭 시 vegas_adkey={adkey} 파라미터가 존재해야 함.
 <br>
-애드맥스 캠페인 세팅시 광고주가 전달 해준 landing URL => (https://)  edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey={adkey} 으로 애드맥스는 캠페인   landing URL로 설정 해놓습니다.
+애드맥스 캠페인 세팅시 광고주가 전달 해준 landing URL => (https://)  edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey={adkey}** 으로 애드맥스는 캠페인   landing URL로 설정 해놓습니다.
 
  
 
 애드맥스 파트너 pick URL을 누르면
 
-(https://)   bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다 vegas_adkey 파라미터에 대한 고유한 값을 생성합니다.
+(https://)   bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다 **vegas_adkey** 파라미터에 대한 고유한 값을 생성합니다.
 
-vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
+**vegas_adkey=**y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
  
 
-결국 도착한  landing URL에는 vegas_adkey 와 값이 존재합니다.
+결국 도착한  landing URL에는 **vegas_adkey** 와 **값**이 존재합니다.
 
-예시) (https://) edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
+예시) (https://) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
 
 ![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
 
@@ -37,9 +37,9 @@ vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cb
 
 ### 1-2. vegas_adkey={adkey} 문제점과 해결 방법 
 <br>
-그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 ******  vegas_adkey={adkey} 값이 url에 보이지 않습니다. 
+그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 **vegas_adkey={adkey} 값이 url에 보이지 않습니다. **
 
- vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로 vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.
+ vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로 **vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.**
 <br><br><br><br>
  
  
@@ -49,11 +49,11 @@ vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cb
 ### 2-1. Cookie에 vegas_param 존재
 ![image](https://user-images.githubusercontent.com/87693595/126424676-27ca0af0-f54f-41ac-9d72-5b2893754d91.png)
 
-A 스크립트의 tracker.firstLanding()이 실행되면  url에 있는 vegas_adkey={adkey}을 값을 쿠키에 vegas_param에 값을 저장하고 있습니다.
+A 스크립트의 **tracker.firstLanding()이 실행되면**  url에 있는 vegas_adkey={adkey}을 값을 쿠키에 **vegas_param**에 값을 저장하고 있습니다.
 
-이 vegas_param 쿠키 값이 B 스크립트가 있는 페이지에 같이 공유를 하면서 어떤 사람이 전환(회원가입)을 했는지 구분하는 값입니다. 
+이 **vegas_param** 쿠키 값이 B 스크립트가 있는 페이지에 같이 공유를 하면서 어떤 사람이 전환(회원가입)을 했는지 구분하는 값입니다. 
 
-따라서 A 스크립트에는 1) url에 있는 vegas_adkey={adkey} 의 존재 2) 쿠키에 vegas_param 존재가 필수적으로 필요합니다.
+따라서 A 스크립트에는 1) url에 있는 **vegas_adkey={adkey} 의 존재** 2) **쿠키에 vegas_param 존재가** 필수적으로 필요합니다.
 
  
 
