@@ -3,11 +3,11 @@
 
 ## A 스크립트
 
-#### 1. A스크립트에서 아래의 두가지를 체크해야 합니다.
+### 1. A스크립트에서 아래의 두가지를 체크해야 합니다.
 <br>
 
-#### 1) url에  vegas_adkey={adkey}존재 
-#### 2) 쿠키에 vegas_param 존재 
+     1) url에  vegas_adkey={adkey}존재 
+     2) 쿠키에 vegas_param 존재 
 <br><br>
 
 
