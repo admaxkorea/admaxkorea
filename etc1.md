@@ -1,16 +1,16 @@
 # 테스트 캠페인 세팅 후 <br> vegas_adkey={adkey} 가 보이지 않을 때
-***
+<br>
 
 ## A 스크립트에는 1), 2) 조건이 필수적으로 필요합니다.
-#### 1) url에  vegas_adkey={adkey}존재 
-#### 2) 쿠키에 vegas_param 존재
- 
+<br>
 
- 
+#### 1) url에  vegas_adkey={adkey}존재 
+#### 2) 쿠키에 vegas_param 존재 
+<br><br>
+
 
 ### 1-1. 애드맥스의 파트너 URL 클릭 시 vegas_adkey={adkey} 파라미터가 존재해야 함.
- 
-
+<br>
 애드맥스 캠페인 세팅시 광고주가 전달 해준 landing URL => (https://)  edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey={adkey} 으로 애드맥스는 캠페인   landing URL로 설정 해놓습니다.
 
  
@@ -36,6 +36,7 @@ vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cb
 <br><br>
 
 ### 1-2. vegas_adkey={adkey} 문제점과 해결 방법 
+<br>
 그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 ******  vegas_adkey={adkey} 값이 url에 보이지 않습니다. 
 
  vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로 vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.
@@ -59,3 +60,4 @@ A 스크립트의 tracker.firstLanding()이 실행되면  url에 있는 vegas_ad
 이 두가지가 생성되야 A 스크립트가 제대로 작동하는 것으로 애드맥스는 판단하고 있습니다.
 
 이 조건이 선행되어야 B 스크립트에서 쿠키에 vegas_param 의 값을 가지고 전환을 실행시킵니다.
+<br><br><br><br>
