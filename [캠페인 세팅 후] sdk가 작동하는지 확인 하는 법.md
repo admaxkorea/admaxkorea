@@ -23,28 +23,28 @@
 
 
 #### 2.1. landingURL 설정
-애드맥스 캠페인 세팅 시 <br>
-광고주가 전달 해준 landing URL => edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey={adkey}** 으로 <br>
-애드맥스 운영진은 캠페인   landing URL로 설정 해야 합니다.
+     애드맥스 캠페인 세팅 시
+     광고주가 전달 해준 landing URL => edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey={adkey} 으로
+     애드맥스 운영진은 캠페인   landing URL로 설정 해야 합니다.
 <br><br>
  
  #### 2.2. 파트너 pick URL 클릭
 
-애드맥스 파트너 pick URL을 누르면<br>
+     애드맥스 파트너 pick URL을 누르면<br>
 
-bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다<br>
-vegas_adkey 파라미터에 대한 고유한 값을 생성합니다.
+     bs1n.io/v.79AM7 (애드맥스 파트너 pick URL) 애드맥스의 클릭서버를 통해 클릭할 때마다
+     vegas_adkey 파라미터에 대한 고유한 값을 생성합니다.
 
-**vegas_adkey=**y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
+     예시: vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
+<br><br>
 
 #### 2.3. vegas_adkey 값 확인 가능
 
-결국 도착한  landing URL에는 **vegas_adkey** 와 **값**이 존재합니다.
+     도착한  landing URL에는 'vegas_adkey=값' 이 존재합니다.
 
-예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&**vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6**
+     예시) edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
-![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
-<br><br><br><br>
+<br><br><br>
  
  
  
@@ -58,10 +58,10 @@ url에 있는 vegas_adkey={adkey}을 값을 쿠키에 **vegas_param**에 값을 
 
 이 **vegas_param** 쿠키 값이 B 스크립트가 있는 페이지에 같이 공유를 하면서 어떤 사람이 전환(회원가입)을 했는지 구분하는 값입니다. 
 
-따라서 A 스크립트에는 <br>
-1) url에 있는 **vegas_adkey={adkey} 의 존재** <br>
-2) **쿠키에 vegas_param 존재가** 필수적으로 필요합니다.
-
+     따라서 A스크립트에는
+     1) url에 있는 vegas_adkey={adkey} 의 존재
+     2) 쿠키에 vegas_param 존재가 필수적으로 필요합니다.
+<br><br>
  
 
 이 두가지가 생성되야 A 스크립트가 제대로 작동하는 것으로 애드맥스는 판단하고 있습니다.
