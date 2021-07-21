@@ -37,9 +37,11 @@
 
 ### 1-2. vegas_adkey={adkey} 문제점과 해결 방법 
 <br>
-그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 **vegas_adkey={adkey} 값이 url에 보이지 않습니다. **
+그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 <br>
+**vegas_adkey={adkey} 값이 url에 보이지 않습니다.**
 
- vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로 **vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.**
+ vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로<br>
+ **vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.**
 <br><br><br><br>
  
  
@@ -49,11 +51,14 @@
 ### 2-1. Cookie에 vegas_param 존재
 ![image](https://user-images.githubusercontent.com/87693595/126424676-27ca0af0-f54f-41ac-9d72-5b2893754d91.png)
 
-A 스크립트의 **tracker.firstLanding()이 실행되면**  url에 있는 vegas_adkey={adkey}을 값을 쿠키에 **vegas_param**에 값을 저장하고 있습니다.
+A 스크립트의 **tracker.firstLanding()이 실행되면** <br>
+url에 있는 vegas_adkey={adkey}을 값을 쿠키에 **vegas_param**에 값을 저장하고 있습니다.
 
 이 **vegas_param** 쿠키 값이 B 스크립트가 있는 페이지에 같이 공유를 하면서 어떤 사람이 전환(회원가입)을 했는지 구분하는 값입니다. 
 
-따라서 A 스크립트에는 1) url에 있는 **vegas_adkey={adkey} 의 존재** 2) **쿠키에 vegas_param 존재가** 필수적으로 필요합니다.
+따라서 A 스크립트에는 <br>
+1) url에 있는 **vegas_adkey={adkey} 의 존재** <br>
+2) 2) **쿠키에 vegas_param 존재가** 필수적으로 필요합니다.
 
  
 
