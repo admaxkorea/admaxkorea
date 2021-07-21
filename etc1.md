@@ -2,8 +2,8 @@
 ***
 
 ## A 스크립트에는 1), 2) 조건이 필수적으로 필요합니다.
-1) url에  vegas_adkey={adkey}존재 
-2) 쿠키에 vegas_param 존재
+#### 1) url에  vegas_adkey={adkey}존재 
+#### 2) 쿠키에 vegas_param 존재
  
 
  
@@ -27,23 +27,26 @@ vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cb
 
 예시) (https://) edsdf.pe.kr/page_07/index02.asp?sender=ad02&vegas_adkey=y0ONEqr0n-7774-8435-5859-AqOmYSkZfOHeZrBJdeMsbYc1eFM1tM8fAlp-921d9cbe2ed65c3b18dd43c4dda2ebe6
 
+![image](https://user-images.githubusercontent.com/87693595/126424590-e02e7506-2d7f-4f8b-b83a-4c392490d3bd.png)
+
 
  
 
 이처럼 최초에 landing 한 페이지에는 vegas_adkey={adkey}가 전달됩니다. 
+<br><br>
 
 ### 1-2. vegas_adkey={adkey} 문제점과 해결 방법 
 그러나 광고주의 사이트에서 여러 이유에 의해서 redirect를 해서 다른 페이지로 landing URL을 보내게 되면 ******  vegas_adkey={adkey} 값이 url에 보이지 않습니다. 
 
  vegas_adkey={adkey}은 광고주의 개발자분이 최종 landing 페이지까지(애드맥스의 a 스크립트가 심어있는) url로 vegas_adkey={adkey} 파라미터와 값을 전달해주셔야 합니다.
-
+<br><br><br><br>
  
-
  
-
+ 
+ 
+ 
 ### 2-1. Cookie에 vegas_param 존재
-
- 
+![image](https://user-images.githubusercontent.com/87693595/126424676-27ca0af0-f54f-41ac-9d72-5b2893754d91.png)
 
 A 스크립트의 tracker.firstLanding()이 실행되면  url에 있는 vegas_adkey={adkey}을 값을 쿠키에 vegas_param에 값을 저장하고 있습니다.
 
